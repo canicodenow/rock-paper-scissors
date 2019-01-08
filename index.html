@@ -29,14 +29,14 @@
         }
 
         function getPlayerSelection() {
-            //Allow player to choose
-            let playerSelection = prompt("Rock, Paper or Scissors?...", "Type here...").toLowerCase();
-            return playerSelection;
+                //Allow player to choose
+                let playerSelection = prompt("Rock, Paper or Scissors?...", "Type here...").toLowerCase();
+                return playerSelection;
         }
         
 
         function gameRound(playerSelection, computerSelection) {
-            //Compare player and computer selections
+            //Compare player and computer selections and reeturn winner
             alert("Computer chose... " + (computerSelection));
 
             switch (computerSelection) {
@@ -79,12 +79,12 @@
                         return "You win! Scissors beats Rock";
                     }   else{
                         return "Invalid input. Try again!";
-                    }
-                    
+                    }   
             }
         }
 
         function game() {
+            //Play 5 rounds and give the final score
             for(let roundNumber = 0; roundNumber < 5; roundNumber++) {
                 console.log(gameRound(getPlayerSelection(), computerPlay()));
                 }
@@ -92,6 +92,7 @@
             return score;
         }
         console.log(game());
+    //game();
     </script>
 
 </body>
