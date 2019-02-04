@@ -1,0 +1,70 @@
+html {
+    background-image: url("https://www.legaljuice.com/files/2015/07/rock-paper-scissors.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+button {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    margin: 3px;
+    opacity: 0.6;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    font: helvetica;
+    font-family: sans-serif;
+}
+
+.select {
+    background-color: white;
+    border: 3px;
+    border-color: gray;
+    border-radius: 8px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    vertical-align: center;
+    display: inline-block;
+    width: 32%;
+}
+
+.button-bottom {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.gameround {
+    text-align: center;
+}
+
+p.round-text {
+    font-size: 30px;
+}
+
+p.score-text {
+    font-size: 20px;
+}
+
+.prompt {
+    text-align: center;
+    padding: 20px;
+}
+
+p.commentary {
+    color: blue;
+    font-size: 35px;
+}
